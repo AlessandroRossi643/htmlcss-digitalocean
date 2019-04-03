@@ -4,6 +4,9 @@
 .blue{
   background-color: blue;
 }
+.grey{
+  background-color: #cecece;
+}
 .textwhite{
   color: white;
 }
@@ -54,4 +57,13 @@ section{
 }
 .btngreen{
   background-color: green;
+}
+
+/* Grey */
+.icons li{
+  padding: 0 30px;
+  display: inline-block;
+}
+.icons li img{
+  height: 70px;
 }
