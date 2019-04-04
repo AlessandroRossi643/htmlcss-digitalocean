@@ -7,6 +7,10 @@
 .grey{
   background-color: #cecece;
 }
+.azure{
+  background-image: url("sfondo.jpg");
+  background-size: cover;
+}
 
 .textwhite{
   color: white;
@@ -54,7 +58,7 @@ section{
 
 
 
-/* blue */
+/* azure */
 .col-lg-6 h1{
   font-size: 60px;
 }
@@ -83,7 +87,7 @@ small span{
   display: inline-block;
 }
 .icons li img{
-  height: 70px;
+  height: 60px;
 }
 
 
@@ -109,4 +113,22 @@ small span{
 /* white2 */
 #comment{
   width: 50%;
+}
+
+/* footer */
+footer i{
+  margin: 10px 0
+}
+.inline li{
+  display: inline-block;
+  padding: 0 10px;
+  text-align: left;
+}
+footer ul{
+  padding-left: 0;
+  list-style-type: none;
+}
+.block a{
+  display: block;
+  color: grey;
 }
