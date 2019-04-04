@@ -1,6 +1,3 @@
-.white{
-  background-color: white;
-}
 .blue{
   background-color: blue;
 }
@@ -9,6 +6,10 @@
 }
 .textwhite{
   color: white;
+}
+.textblue{
+  color: #031b4e;
+  font-weight: bold;
 }
 .textcenter{
   text-align: center;
@@ -58,6 +59,10 @@ section{
 .btngreen{
   background-color: green;
 }
+small span{
+  color: blue;
+}
+
 
 /* Grey */
 .icons li{
@@ -66,4 +71,18 @@ section{
 }
 .icons li img{
   height: 70px;
+}
+
+
+/* white */
+.space div{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* Grey2 */
+.imgmargin {
+  margin: 30px auto;
+  width: 100%;
 }
