@@ -1,24 +1,38 @@
+.white{
+  background-color: white;
+}
 .blue{
-  background-color: blue;
+  background-color: #031b4e;
 }
 .grey{
   background-color: #cecece;
 }
+
 .textwhite{
   color: white;
 }
 .textblue{
   color: #031b4e;
-  font-weight: bold;
+}
+.textgrey{
+  color: grey;
 }
 .textcenter{
   text-align: center;
 }
+.textazure{
+  color: #81ecec;
+}
+
+
 section{
   padding: 100px 0;
 }
 .fnt16{
   font-size: 16px;
+}
+.bold{
+  font-weight: bold;
 }
 
 
@@ -43,7 +57,6 @@ section{
 /* blue */
 .col-lg-6 h1{
   font-size: 60px;
-  font-weight: bold;
 }
 .contact input, .contact button{
   display: block;
@@ -85,4 +98,15 @@ small span{
 .imgmargin {
   margin: 30px auto;
   width: 100%;
+}
+
+/* Blue2 */
+.blue ul li{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+/* white2 */
+#comment{
+  width: 50%;
 }
